@@ -18,7 +18,7 @@ Proje, aşağıdaki teknolojiler sayesinde kullanılır:
 - IntelliJ IDEA'yı açın.
 - Üst menü çubuğundan File > New > Project from Version Control... seçeneğini seçin.
 - Açılan pencerede, Repository URL sekmesini seçin.
-- URL kısmına yukarıdaki linki yapıştırın *'Clone'* düğmesine tıklayın.
+- URL kısmına yukarıdaki linki yapıştırın ve *'Clone'* düğmesine tıklayın.
 
 ## *Nasıl Kullanılır?*
 
