@@ -22,7 +22,7 @@ Proje, aşağıdaki teknolojiler sayesinde kullanılır:
 
 ## *Nasıl Kullanılır?*
 
-Testlerini çalıştırabilirsiniz: TrendyolMillaTest/src/test/java dizinde yer alan paketlerin içlerindeki java hücrelerini çalıştırabilirsiniz.
+Testlerini çalıştırabilirsiniz: TrendyolMillaTest/src/test/java dizinde yer alan yer alan Testleri çalıştırabilirsiniz.
 - TrendyolMillaTest/configuration.properties dosyasını oluşturulduğundan emin olun.
 
 ## *Senaryolar*
