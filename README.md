@@ -7,17 +7,23 @@ Bu proje, TrendyolMilla sitesi üzerindeki ürünleri ekleme işlemlerini test e
 Proje, aşağıdaki teknolojiler sayesinde kullanılır:
 
 - Java 17. sürüm
+- IntelliJ IDEA
 - Selenyum Web Sürücüsü
 - TestNG
 
 ## *Projenin kopyalanması:*
 
-- https://github.com/dlyzaren/TrendyolMilla-Testi.git
+İlk adım olarak, GitHub'daki projeyi klonlamanız gerekmektedir. Bunun için aşağıdaki adımları izleyebilirsiniz:
+- Projeyi Klonlayın: https://github.com/dlyzaren/TrendyolMilla-Testi.git
+- IntelliJ IDEA'yı açın.
+- Üst menü çubuğundan File > New > Project from Version Control... seçeneğini seçin.
+- Açılan pencerede, Repository URL sekmesini seçin.
+- URL kısmına yukarıdaki linki yapıştırın *'Clone'* düğmesine tıklayın.
 
 ## *Nasıl Kullanılır?*
 
 Testlerini çalıştırabilirsiniz: TrendyolMillaTest/src/test/java dizinde yer alan paketlerin içlerindeki java hücrelerini çalıştırabilirsiniz.
-- TrendyolMillaTest/configuration.properties dosyasını oluşturmaya dikkat ediniz.
+- TrendyolMillaTest/configuration.properties dosyasını oluşturulduğundan emin olun.
 
 ## *Senaryolar*
 
