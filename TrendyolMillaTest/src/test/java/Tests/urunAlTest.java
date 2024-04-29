@@ -57,7 +57,7 @@ import static utilities.Driver.driver;
     @Test(priority = 2)
     public void urunSecmeTesti() throws InterruptedException {
 
-    //* Trendyol Milla web sitesinde ürün seçme testi.
+    // Trendyol Milla web sitesinde ürün seçme testi.
     // Bu test, Trendyol Milla web sitesinde belirli bir ürünün seçilmesi için gerçekleştirilir.
     // - Belirli bir ürünün bulunduğu sayfaya gidilir.
     // - Ürünün bulunduğu sayfada bulunana kadar sayfa kaydırılır.
@@ -77,10 +77,10 @@ import static utilities.Driver.driver;
     public void sepeteEklemeTesti() throws InterruptedException {
     // Trendyol Milla web sitesinde ürünün sepete eklenmesi testi.
     //Bu test, Trendyol Milla web sitesinde belirli bir ürünün sepete eklenmesi için gerçekleştirilir.
-    //Belirli bir ürünün detay sayfasına gidilir.
-    //Bir beden seçilir.
-    // Ürün sepete eklenir.
-    //Ürünün başarılı bir şekilde sepete eklenip eklenmediği kontrol edilir .
+    //- Belirli bir ürünün detay sayfasına gidilir.
+    //- Bir beden seçilir.
+    //- Ürün sepete eklenir.
+    //- Ürünün başarılı bir şekilde sepete eklenip eklenmediği kontrol edilir .
 
         trendyolPage.bedenSec.click();
         Thread.sleep(beklemeSuresi);
@@ -95,7 +95,7 @@ import static utilities.Driver.driver;
     public void dogruBedenSecimiTesti(){
 
     // Trendyol Milla web sitesinde doğru beden seçimi testi.
-    //Bu test, Trendyol Milla web sitesinde belirli bir ürünün doğru bedeninin seçilip seçilmediğini kontrol eder.
+    // Bu test, Trendyol Milla web sitesinde belirli bir ürünün doğru bedeninin seçilip seçilmediğini kontrol eder.
     // - Sepete git butonuna tıklanır.
     // - Sepetteki ürünler listesi açılır.
     // - Doğru beden seçimi yapıldığı kontrol edilir.
