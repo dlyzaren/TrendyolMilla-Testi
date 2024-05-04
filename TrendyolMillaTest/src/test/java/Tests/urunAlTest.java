@@ -109,7 +109,7 @@ import static utilities.Driver.driver;
 
 
     @Test(priority = 5)
-    public void uyarıTesti(){
+    public void uyarıTesti() throws InterruptedException {
     // Trendyol Milla web sitesinde uyarı mesajı testi.
     // Bu test, Trendyol Milla web sitesinde belirli bir işlem sonucunda beklenen uyarı mesajının görüntülenip görüntülenmediğini kontrol eder.
     // - Sepeti onayla butonuna tıklanır.
@@ -117,6 +117,7 @@ import static utilities.Driver.driver;
     // -Sayfa kapatılır
 
        trendyolPage.sepetiOnaylaButonu.click();
+       Thread.sleep(beklemeSuresi);
        String sayfaMesaji =Driver.getDriver().findElement(By.cssSelector(".pb-guest-order-flow-modal-title")).getText();
        String beklenenMesaj = "Trendyol Hesabınız Yok Mu?";
        Assert.assertEquals(beklenenMesaj,sayfaMesaji);
