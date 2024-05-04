@@ -65,7 +65,7 @@ import static utilities.Driver.driver;
     // - Yeni sekme açılarak ürün detay sayfasına geçilir.
     // - Ürün detay sayfasının URL'si kontrol edilir.
 
-        ReusableMethods.bulanaKadarIn(trendyolPage.bluz);
+        ReusableMethods.bulanaKadarIn();
         trendyolPage.bluz.click();
         Thread.sleep(beklemeSuresi);
         ReusableMethods.yeniSekmeyeGec();
