@@ -69,7 +69,7 @@ import static utilities.Driver.driver;
         trendyolPage.bluz.click();
         Thread.sleep(beklemeSuresi);
         ReusableMethods.yeniSekmeyeGec();
-        ReusableMethods.linkKontrol("https://www.trendyol-milla.com/trendyolmilla/lacivert-bisiklet-yaka-triko-bluz-twoss21bz0370-p-79868285?boutiqueId=640865&merchantId=968");
+        ReusableMethods.linkKontrol("https://www.trendyol-milla.com/trendyolmilla/lacivert-bisiklet-yaka-triko-bluz-twoss21bz0370-p-79868285?boutiqueId=653710&merchantId=968");
 
     }
 
