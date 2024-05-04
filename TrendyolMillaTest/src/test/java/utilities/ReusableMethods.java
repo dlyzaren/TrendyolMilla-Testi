@@ -19,7 +19,8 @@ public class ReusableMethods {
 
 
     public static  void bulanaKadarIn() {
-
+        
+        // Belirtilen bir WebElement görünene kadar sayfayı kaydırır.
         JavascriptExecutor jsx = (JavascriptExecutor) Driver.getDriver();
         WebElement element = driver.findElement(By.xpath("//h3[.='TRENDYOLMİLLALacivert Bisiklet Yaka Triko Bluz TWOSS21BZ0370']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'start', behavior: 'smooth'});", element);
