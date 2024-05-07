@@ -27,7 +27,7 @@ public class TrendyolPage {
     public WebElement millaMarkasi;
 
 
-    @FindBy(xpath = "//h3[.='TRENDYOLMİLLALacivert Bisiklet Yaka Triko Bluz TWOSS21BZ0370']")
+    @FindBy(xpath = "//span[.='Petrol Tül Astarlı Asimetrik Yaka Örme Bluz TWOAW24BZ00051']")
     public WebElement bluz;
     
     @FindBy(xpath = "//div[.='XL']")
