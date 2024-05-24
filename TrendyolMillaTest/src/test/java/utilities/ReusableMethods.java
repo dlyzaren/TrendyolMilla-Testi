@@ -73,7 +73,7 @@ public class ReusableMethods {
 
         //Bulunan sayfanın linkini alır gitmesi gereken sayfa linki ile karşılaştırır
         String gelenlink = driver.getCurrentUrl();
-        Assert.assertEquals(beklenenLink,gelenlink);
+        Assert.assertEquals(gelenlink,beklenenLink);
         System.out.println("Bu sayfadasınız " + gelenlink);
 
     }
