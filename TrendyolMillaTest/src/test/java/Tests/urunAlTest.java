@@ -69,7 +69,7 @@ import static utilities.Driver.driver;
         trendyolPage.bluz.click();
         Thread.sleep(beklemeSuresi);
         ReusableMethods.yeniSekmeyeGec();
-        ReusableMethods.linkKontrol("https://www.trendyol-milla.com/trendyolmilla/petrol-tul-astarli-asimetrik-yaka-orme-bluz-twoaw24bz00051-p-744572707?boutiqueId=651724&merchantId=968");
+        ReusableMethods.linkKontrol("https://www.trendyol-milla.com/trendyolmilla/yesil-sifir-kol-buzgulu-vucuda-oturan-esnek-orme-bluz-twoss24bz00486-p-807163063?boutiqueId=656476&merchantId=968");
 
     }
 
