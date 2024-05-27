@@ -22,7 +22,7 @@ public class ReusableMethods {
         
         // Belirtilen bir WebElement görünene kadar sayfayı kaydırır.
         JavascriptExecutor jsx = (JavascriptExecutor) Driver.getDriver();
-        WebElement element = driver.findElement(By.xpath("//span[.='Petrol Tül Astarlı Asimetrik Yaka Örme Bluz TWOAW24BZ00051']"));
+        WebElement element = driver.findElement(By.xpath("//span[.='Yeşil Sıfır Kol']"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'start', behavior: 'smooth'});", element);
     
     }
